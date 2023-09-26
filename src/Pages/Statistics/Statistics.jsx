@@ -22,9 +22,7 @@ const Statistics = () => {
         { x: leftPercent.toFixed(2) , y: leftPercent.toFixed(2)  },
         { x: donationPercentage.toFixed(2) , y: donationPercentage.toFixed(2)  },
     ];
-    console.log(donationPercentage);
-    console.log(leftPercent);
-    console.log(chartData);
+
     return (
         <div className='container mx-auto'>
         {chartData[1].x === 0 && chartData[1].y === 0 ? (
