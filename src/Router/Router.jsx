@@ -3,7 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Donation from "../Pages/Donation/Donation";
-
+import Statistics from '../Pages/Statistics/Statistics'
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -19,7 +19,8 @@ const Router = createBrowserRouter([
                 element: <Donation></Donation>
             },
             {
-                path: '/statistics'
+                path: '/statistics',
+                element: <Statistics></Statistics>
             }
         ]
     },

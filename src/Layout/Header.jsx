@@ -16,7 +16,7 @@ const Header = () => {
                         }
                     </div>
                 </div>
-                <ul className={`flex flex-col items-center justify-center md:flex-row md:static bg-white absolute left-0 w-full md:w-auto gap-3 opacity-0 md:opacity-100 ${open && 'top-[80px] opacity-100'}`}>
+                <ul className={`flex flex-col items-center justify-center md:flex-row md:static bg-white absolute left-0 w-full md:w-auto gap-3 opacity-0 md:opacity-100 z-50 ${open && 'top-[80px] opacity-100'}`}>
                     <li><NavLink to='/' className={({ isActive }) => isActive ? 'text-red-500 underline underline-offset-4 font-bold text-lg' : 'text-lg'}>Home</NavLink></li>
                     <li><NavLink to='/donation' className={({ isActive }) => isActive ? 'text-red-500 underline underline-offset-4 font-bold text-lg' : 'text-lg'}>Donation</NavLink></li>
                     <li><NavLink to='/statistics' className={({ isActive }) => isActive ? 'text-red-500 underline underline-offset-4 font-bold text-lg' : 'text-lg'}>Statistics</NavLink></li>
