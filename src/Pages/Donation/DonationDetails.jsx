@@ -18,7 +18,7 @@ const DonationDetails = () => {
         saveDonations(parseInt(id))
     }
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-3">
             <div className="relative">
                 <img className="w-full rounded-2xl h-auto md:h-[550px]" src={image} alt="" />
                 <div className="absolute w-full rounded-b-2xl bg-gray-600 left-0 bottom-0 bg-opacity-50 py-5 px-3">
